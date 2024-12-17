@@ -13,6 +13,8 @@ class TaskList:
         self.tasks.append(task)
 
         self.task_id_counter += 1
+
+        return task
         
     def removeTask(self, task_id):
         for task in self.tasks:
